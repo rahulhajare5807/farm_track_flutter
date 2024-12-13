@@ -1,5 +1,6 @@
 // main.dart
-import 'package:farm_track/Screens/Login/ui/login.dart';
+import 'package:farm_track/Screens/Login/ui/login_page.dart';
+import 'package:farm_track/Screens/register/register_page.dart';
 import 'package:farm_track/utils/theme/bloc/theme_bloc.dart';
 import 'package:farm_track/utils/theme/bloc/theme_state.dart';
 import 'package:farm_track/utils/theme/data/app_themes.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
           return MaterialApp(
             title: 'Theme Change Demo',
             theme: themeData,
-            home: Login(),
+            home: RegisterPage(),
           );
         },
       ),
